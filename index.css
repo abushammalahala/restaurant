@@ -1156,6 +1156,7 @@ nav ul li {
   .hero .btn-hero {
     flex-direction: column;
     align-items: center;
+        width: 100%;
   }
 
   .hero .btn-hero a {
@@ -1214,21 +1215,28 @@ nav ul li {
 /* Small Mobile (max-width: 400px) */
 @media (max-width: 400px) {
   .hero {
-    padding-top: 90px;
+    padding-top: 50px;
   }
 
   .hero .hero-content h1 {
-    font-size: 1.5rem;
-  }
+    font-size: 1rem;
+   margin-bottom: 10px !important;
 
+    
+  }
+  .hero .hero-content p {
+  margin-bottom: 20px  !important;
+  }
   .reserve-img img {
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
   }
 
   .web-img img {
     width: 100%;
     height: auto;
+    margin-bottom: 20px !important;
+
   }
 }
 
@@ -1783,4 +1791,5 @@ span {
 .Juices {
   display: none;
   gap: 30px;
+
 }
